@@ -1,9 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&family=Quicksand:wght@300&display=swap');
 
+*{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
 .quicksand{
     font-family: 'Quicksand', sans-serif;
+    color: white;
 }
 
 .oxygen{
     font-family: 'Oxygen', sans-serif;
+    color:white;
+}
+
+.bg-olive{
+    /* background-color: #718A6B; */
+    /* background-color: #718A6B; */
+    background-color: #D7BEAF;
+}
+
+.bg-mauve{
+    background-color: #75615D;
 }
