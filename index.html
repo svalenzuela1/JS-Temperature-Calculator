@@ -1,30 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Temperature Calculator</title>
 
     <!-- BOOTSTRAP -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-  integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css"/>
     <script src="script.js" defer></script>
-</head>
+  </head>
 
-<body>
-    
+  <body>
+    <header class="pb-5">
+      <!-- NAVBAR -->
+      <div class="fixed-top">
+        <div class="collapse" id="navbarToggleExternalContent">
+          <div class="bg-dark p-4">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <!-- <h5 class="text-white h4">Collapsed content</h5>
+                <span class="text-muted">Toggleable via the navbar brand.</span> -->
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="c_to_f.html">Fahrenheit Converter</a></li>
+              <li><a href="f_to_c.html">Celsius Converter</a></li>
+            </ul>
+          </div>
+        </div>
+        <nav class="navbar navbar-dark bg-dark">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarToggleExternalContent"
+            aria-controls="navbarToggleExternalContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </nav>
+      </div>
+    </header>
+    <!-- NAVBAR -->
+
+    <!-- CONTENT -->
+    <main class="pt-3">
+      <div class="text-center p-3">
+        <h1>Fahrenheit</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam felis
+          risus, elementum et metus non, posuere facilisis turpis. Morbi
+          tristique vulputate turpis, sed tincidunt ipsum facilisis nec. Vivamus
+          pulvinar blandit ex, in consectetur diam iaculis at. In vel euismod
+          enim, nec aliquam massa. Curabitur posuere, augue quis euismod
+          dapibus, nisi nulla gravida sem, sit amet feugiat nibh nunc vitae est.
+          Aliquam consectetur elit vitae porttitor consequat. Curabitur ac
+          libero diam. Integer blandit vestibulum ultrices. Pellentesque
+          habitant morbi tristique senectus et netus et malesuada fames ac
+          turpis egestas. Suspendisse ullamcorper bibendum magna, ut eleifend
+          sem rutrum sed. Vestibulum vulputate rutrum dui, a mollis mi tempor a.
+          Aliquam nunc justo, commodo nec rhoncus quis, commodo a nulla. Sed eu
+          bibendum quam. Ut et auctor augue. Nunc vel blandit enim. Vestibulum
+          fringilla diam metus, sit amet lacinia libero commodo at.
+        </p>
+      </div>
+
+      <div class="text-center p-3">
+          <h1>Celsius</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam felis
+          risus, elementum et metus non, posuere facilisis turpis. Morbi
+          tristique vulputate turpis, sed tincidunt ipsum facilisis nec. Vivamus
+          pulvinar blandit ex, in consectetur diam iaculis at. In vel euismod
+          enim, nec aliquam massa. Curabitur posuere, augue quis euismod
+          dapibus, nisi nulla gravida sem, sit amet feugiat nibh nunc vitae est.
+          Aliquam consectetur elit vitae porttitor consequat. Curabitur ac
+          libero diam. Integer blandit vestibulum ultrices. Pellentesque
+          habitant morbi tristique senectus et netus et malesuada fames ac
+          turpis egestas. Suspendisse ullamcorper bibendum magna, ut eleifend
+          sem rutrum sed. Vestibulum vulputate rutrum dui, a mollis mi tempor a.
+          Aliquam nunc justo, commodo nec rhoncus quis, commodo a nulla. Sed eu
+          bibendum quam. Ut et auctor augue. Nunc vel blandit enim. Vestibulum
+          fringilla diam metus, sit amet lacinia libero commodo at.
+        </p>
+      </div>
+    </main>
+    <!-- CONTENT -->
 
     <!-- BOOTSTRAP & JQUERY JS FILES -->
-    <!-- Bootstrap script files go to the bottom of the body -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-  integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-  crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
-  crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

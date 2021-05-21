@@ -11,11 +11,68 @@
   integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous" />
 
     <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
+    <script src="script2.js" defer></script>
 </head>
 
 <body>
-    
+    <!-- NAVBAR -->
+    <header class="pb-5">
+    <div class="fixed-top">
+        <div class="collapse" id="navbarToggleExternalContent">
+          <div class="bg-dark p-4">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <!-- <h5 class="text-white h4">Collapsed content</h5>
+            <span class="text-muted">Toggleable via the navbar brand.</span> -->
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="c_to_f.html">Fahrenheit Converter</a></li>
+                <li><a href="f_to_c.html">Celsius Converter</a></li>
+            </ul>
+
+        </div>
+        </div>
+        <nav class="navbar navbar-dark bg-dark">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </nav>
+      </div>
+    </header>
+    <!-- NAVBAR -->
+
+<!-- CONTENT -->
+<main class="p-5">
+    <div class="text-center">
+      <div class="bg-white">
+        <form>
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="basic-addon1"> Fahrenheit </span>
+            </div>
+            <input type="number" class="form-control" id="fDegrees" />
+          </div>
+
+          <div class="text-center pb-4">
+            <input id="calcCelsiusBtn" type="button" value="Convert"/>
+          </div>
+
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text"> Celsius </span>
+            </div>
+
+            <input
+              type="number"
+              class="form-control"
+              id="celsiusResults"
+              readonly
+            />
+          </div>
+        </form>
+      </div>
+    </div>
+  </main>
+<!-- CONTENT -->
 
     <!-- BOOTSTRAP & JQUERY JS FILES -->
     <!-- Bootstrap script files go to the bottom of the body -->
