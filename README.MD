@@ -12,6 +12,8 @@ For this project, I will be making creating a website will 3 webpages. This webs
 
 # Web Pages 
 
+Below Contain Pictures of the Website. 
+
 [Navbar](https://res.cloudinary.com/stephaniev/image/upload/v1621608867/Screen_Shot_2021-05-21_at_10.54.09_AM_hzdhmt.png)
 
 [Home Page](https://res.cloudinary.com/stephaniev/image/upload/v1621608534/Screen_Shot_2021-05-21_at_10.46.02_AM_irw0oo.png)
