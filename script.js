@@ -13,6 +13,6 @@ function calcFahrenheit(){
     let fDegrees = (cDegrees * 9/5) + 32;
 
     let fahrenheitResults = document.getElementById("fahrenheitResults");
-    fahrenheitResults.value = fDegrees.toFixed(2);
+    fahrenheitResults.value = fDegrees.toFixed(1);
 }
 

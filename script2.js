@@ -11,8 +11,8 @@ function calcCelsius(){
     let fDegreesField = document.getElementById("fDegrees");
     let fDegrees = Number(fDegreesField.value);
 
-    let cDegrees = (fDegrees - 32) * 5/9
+    let cDegrees = Math.ceil((fDegrees - 32) * 5/9)
 
     let celsiusResults = document.getElementById("celsiusResults")
-    celsiusResults.value = cDegrees.toFixed(2)
+    celsiusResults.value = cDegrees.toFixed(1)
 }
